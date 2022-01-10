@@ -15,7 +15,7 @@ header{
     background-size: cover;
 }
 section{
-    margin-bottom:100px;
+    margin-bottom:50px;
 }
 .container{
     width:1140px;
@@ -72,6 +72,11 @@ nav {
     padding: 15px;
     color:chocolate;
 }
+.logo span:hover{
+    background: transparent;
+    border-radius: 80px;
+    border:2px solid tomato;
+}
 .marrage-day{
     width:322px;
     color:white;
@@ -102,4 +107,28 @@ hr {
 .marrage-day h2{
     margin:5px 0px;
     text-transform:uppercase;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+    
+}
+table th,td{
+    border:1px solid black;
+    font-size: 20px;
+}
+.nasir td:nth-child(3){
+    background-color: red;
+}
+input:focus{
+    background: #ddd;
+    
+}
+#social-link i {
+    font-size: 25px;
+    margin-right: 20px;
+    color: indianred;
+}
+#para::after{
+    content:"I hate you";
 }
